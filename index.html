@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign up</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <a href="./pages/page1.html">Continue</a>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="container">
+          <div class="navigation">
+            <img src="./images/trend.svg" alt=" by trend" />
+            <ul class="navbar__list">
+              <li class="navbar__list__item">
+                <a href="#">Services</a>
+              </li>
+              <li class="navbar__list__item">
+                <a href="#">About</a>
+              </li>
+              <li class="navbar__list__item">
+                <a href="#">Contacts</a>
+              </li>
+              <button class="btn1">
+                <li class="navbar__list__item">
+                  <a href="./pages/page2.html"> Log in</a>
+                </li>
+              </button>
+              <button class="btn2">
+                <li class="navbar__list__item">
+                  <a href="./pages/page1.html"> Register</a>
+                </li>
+              </button>
+              <button class="btn3">
+                <li class="navbar__list__item">
+                  <a href="#"></a>
+                </li>
+                EN
+              </button>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="form">
+        <div class="container">
+          <div class="form_content">
+            <form>
+              <div class="bylogo">
+                <img src="./images/trend.svg" alt="by trend" />
+              </div>
+              <p class="welcome">Welcome to ByTrend!</p>
+              <p class="account">
+                Already have an account? <a href="#">Log in</a>
+              </p>
+              <div class="name">
+                <label for="firstname"
+                  >First name
+                  <input
+                    type="text"
+                    id="firstname"
+                    name="firstname"
+                    placeholder="Alexandr"
+                    required
+                  />
+                </label>
+                <label for="lastname"
+                  >Last name
+                  <input
+                    type="text"
+                    name="lastname"
+                    id="lastname"
+                    placeholder="Duma "
+                    required
+                  />
+                </label>
+              </div>
+              <div class="birth_date">
+                <label for="birth">
+                  Birth date
+                  <input type="date" id="birth" name="birth" required />
+                </label>
+              </div>
+              <div class="gen">
+                <p><label for="gender">Gender</label></p>
+                <label for="male">
+                  <button class="btn">
+                    <input type="radio" id="male" name="gender" required />
+                    Male
+                  </button>
+                </label>
+
+                <label for="female">
+                  <button class="btn">
+                    <input type="radio" id="female" name="gender" required />
+                    Female
+                  </button>
+                </label>
+              </div>
+              <div class="skype_text">
+                <label for="skyp">
+                  Skype <input type="text" id="skyp" name="skyp" />
+                </label>
+              </div>
+              <div class="skype_text">
+                <label for="skyp">
+                  Promo <input type="text" id="skyp" name="skyp" />
+                </label>
+              </div>
+              <div class="continu">
+                <button class="conti">
+                  <a class="regis" href="./pages/page1.html">Continue </a>
+                  <p class="font"><i class="fa-solid fa-arrow-right"></i></p>
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
